@@ -1,0 +1,93 @@
+@media(min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media(max-width: 1199px){
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .promo-one .row img{
+        margin-right: 100px;
+    }
+    .promo-three .row img{
+        margin-right: 100px;
+    }
+    .promo-one h2{
+        font-size: 20px;
+    }
+    .promo-one p{
+        font-size: 15px;
+    }
+    .promo-two h2{
+        font-size: 20px;
+    }
+    .promo-two p{
+        font-size: 15px;
+    }
+    .promo-three h2{
+        font-size: 20px;
+    }
+    .promo-three p{
+        font-size: 15px;
+    }
+  
+}
+@media(max-width: 767px){
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .promo-two .row{
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width: 706px){
+    .row{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .promo-two .row{
+        flex-direction: column-reverse;
+    }
+    .promo img{
+        max-width: 300px;
+        height: 500px;
+    }
+    span{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .hero .btn_list a{
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 8px 25px;
+    }
+    .hero h1{
+        font-size: 25px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+    .hero-two h2{
+        font-size: 25px;
+    }
+    .hero-two p{
+        font-size: 16px;
+    }
+}
+/* @media(min-width: 773px) and (max-width: 1199px){
+    .promo-one .row img{
+        margin-right: 400px;
+    }
+    .promo-three .row img{
+        margin-right: 40%;
+    }
+} */

@@ -1,0 +1,240 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.site_wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+/* ====================================================Short Coad ================================================================= */
+.row 
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.promo-one .col-left,
+.promo-three .col-left,
+.promo-two .col-right{
+    width: 60%;
+}
+.col-right a{
+    text-decoration: none;
+}
+span
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* -----------------------------------------------------navigation-menu/ul/li ---------------------------------------------------- */
+header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+ul li:first-child{
+    margin-left: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+ul li a:hover,
+ul li a:focus{
+    color: #FA4A0C;
+    transition: all .3s ease-in;
+}
+.row .col-left a {
+    display: block;
+    padding: 26px 0 26px;
+}
+header .col-left a img {
+    max-width: 206px;
+}
+/*------------------------------------------------------------------ hero ------------------------------------------------------------- */
+.hero {
+    background: url("img/banner.png");
+    color: #fff;
+    text-align: center;
+    padding: 72px 0 125px;
+}
+.hero span {
+    color:#f6f6f6;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+.hero h2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.hero p {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #f6f6f6;
+    margin-top: 10px;
+}
+.hero .btn_list {
+    margin-top: 30px;
+
+}
+.hero .btn_list a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 25px;
+    color: #fff;
+    background: #FA4A0C;
+    padding: 11px 45px;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid #FA4A0C;
+    border-radius: 30px;
+}
+.hero .btn_list a:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+/* ================================================================   Promo    ============================================================== */
+.promo .content {
+    transform: translateY(-125px);
+    text-align: center;
+}
+hr{
+    max-width: 884px;
+    margin: 0 auto 150px auto;
+    border: 3px solid #E4E4E4;
+}
+.promo h2 {
+    font-family: 'Poppins' sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1ppx;
+    color: #000000;
+}
+/* ==================================================    Promo-one(Includ short coad)     ============================================*/
+
+
+/*===================================================        Hero-two         =======================================================*/
+.hero-two 
+{
+    background: url('img/hero2.png');
+    text-align: center;
+    padding: 72px 0 100px;
+    margin-top: 100px;
+}
+.hero-two h2{
+    font-family: 'Montserrat' sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+.hero-two p {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+.hero-two .btn-list a
+{
+    font-family: 'Montserrat' sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+    background: #FA4A0C;
+    padding: 25px 50px;
+    border: 1px solid #FA4A0C;
+    border-radius: 10px;
+}
+.hero-two .btn-list a:hover
+{
+    background: transparent;
+    border: 1px solid #ffffff;
+    transition: all .5s ease-in;
+}
+/*=======================================================      footer      ============================================================ */
+
+footer .social-icon img
+{
+    margin-left: 20px;
+}
+footer .social-icon img:last-child
+{
+    margin-left: none;
+}
+.copyright
+{
+    font-family: 'Roboto' sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color:#5C5C5C;
+}
